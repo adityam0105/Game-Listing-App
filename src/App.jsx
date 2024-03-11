@@ -12,14 +12,11 @@ function App() {
   return (
     <>
       <ThemeContext.Provider value={{theme,setTheme}}>
-      <div className= {`${theme} ${theme=='dark'?'bg-[#302f33]':'bg-[#ffffff]'} h-full`}>
+      <div className= {`${theme} ${theme=='dark'?'bg-[#040D12]':'bg-[#F8F6F4]'} min-h-[100vh]`}>
       <Header></Header>
       <Home></Home>
       </div>
       </ThemeContext.Provider>
-      
-      
-      
     </>
   )
 }
