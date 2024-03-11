@@ -5,7 +5,7 @@ const TrendingGames = ({ gameList }) => {
     console.log("gameList", gameList);
   }, []);
   return (
-    <div className="hidden md:block pt-5">
+    <div className="md:block pt-5">
         <div className="fold-bold text-[40px] dark:text-white pt-1">Trending Games</div>
       <div className=" mt-5 md:grid md:grid-cols-3 lg:grid-cols-4 gap-4 pl-1">
         {gameList.map(

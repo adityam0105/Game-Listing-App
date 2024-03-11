@@ -6,7 +6,7 @@ const Header = () => {
   const { theme, setTheme } = useContext(ThemeContext);
   return (
     <div className="flex items-center p-3">
-      <img src={logo} height={60} width={60} />
+      <img className="h-[60px] w-[60px] p-1" src={logo} />
       <div className="flex bg-slate-200 p-2 w-full items-center mx-5 rounded-full">
         <HiOutlineMagnifyingGlass />
         <input
